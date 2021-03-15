@@ -24,7 +24,7 @@ defmodule PhxSnowpackDemoWeb.Endpoint do
     at: "/",
     from: :phx_snowpack_demo,
     gzip: false,
-    only: ~w(css fonts images js favicon.ico robots.txt)
+    only: ~w(_snowpack css fonts images js favicon.ico robots.txt)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
