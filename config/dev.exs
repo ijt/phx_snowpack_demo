@@ -13,10 +13,8 @@ config :phx_snowpack_demo, PhxSnowpackDemoWeb.Endpoint,
   check_origin: false,
   watchers: [
     node: [
-      "node_modules/webpack/bin/webpack.js",
-      "--mode",
-      "development",
-      "--watch-stdin",
+      "node_modules/snowpack/index.bin.js",
+      "build",
       cd: Path.expand("../assets", __DIR__)
     ]
   ]
