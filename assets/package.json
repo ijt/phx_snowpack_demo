@@ -3,7 +3,8 @@
   "description": " ",
   "license": "MIT",
   "scripts": {
-    "deploy": "snowpack build --no-watch"
+    "deploy": "webpack --mode production",
+    "deploy-with-snowpack": "snowpack build --no-watch"
   },
   "dependencies": {
     "canvas-confetti": "^1.4.0",
