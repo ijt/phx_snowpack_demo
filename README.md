@@ -1,5 +1,7 @@
 # PhxSnowpackDemo
 
+Have a look at the [tutorial](./tutorial.md) to learn about integrating Snowpack with Phoenix.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
