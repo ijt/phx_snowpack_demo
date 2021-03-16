@@ -8,7 +8,6 @@ In this tutorial, I'll show how to start a Phoenix project using Snowpack so you
 
 Prerequisites:
 * Elixir is installed so you have the mix command
-* Postgres is installed so we can use the Phoenix defaults
 * npm is installed
 * npx is installed
 
