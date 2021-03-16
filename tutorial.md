@@ -7,7 +7,7 @@ Luckily there is an alternative to webpack called [Snowpack](https://www.snowpac
 In this tutorial, I'll show how to start a Phoenix project using Snowpack so you can start enjoying its advantages.
 
 Prerequisites:
-* Elixir is installed so you have the mix command
+* Elixir is installed
 * npm is installed
 * npx is installed
 
