@@ -1,5 +1,7 @@
 # Debuggable JavaScript in Phoenix via Snowpack
 
+Update: After writing this I found out about the `webpack://` section of the sources tab in the Chrome dev tools, which makes it possible to debug your webpack processed JavaScript if it has a source map. Even so, Snowpack gives a pleasant development experience so I'm leaving this here.
+
 By default, Phoenix integrates webpack into new projects when `mix phx.new` is invoked. That is great for deploying small bundles in production, however it can get in the way of debugging the JavaScript code in your project since webpack rewrites it in a way that is hard to read.
 
 Luckily there is an alternative to webpack called [Snowpack](https://www.snowpack.dev/) that makes debugging easy. Snowpack makes minor enough changes to the source files that they are about as readable as the original source files.
