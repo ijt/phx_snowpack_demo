@@ -69,6 +69,11 @@ Images have to be copied over as well, so we'll need this in `snowpack.config.js
   },
 ```
 
+To make Snowpack reliably find the JavaScript files in the deps directory, let's add this to `module.exports` in `snowpack.config.js`:
+```js
+  workspaceRoot: ".."
+```
+
 Now `cd ..` and in `config/dev.exs` edit the watchers bit of the config section to be like this:
 ```elixir
   watchers: [
