@@ -21,4 +21,5 @@ module.exports = {
       out: "../priv/static",
       watch: true
   },
+  workspaceRoot: ".."
 };
